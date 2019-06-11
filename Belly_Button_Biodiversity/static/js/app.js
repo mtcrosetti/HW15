@@ -108,6 +108,7 @@ function optionChanged(newSample) {
   // Fetch new data each time a new sample is selected
   buildCharts(newSample);
   buildMetadata(newSample);
+  console.log(newSample);
 }
 
 // Initialize the dashboard
